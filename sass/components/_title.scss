@@ -1,0 +1,37 @@
+.what-we-do {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: Roboto;
+  font-weight: 700;
+  color: var(--link-color);
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.our-team {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: Roboto;
+  width: 700;
+  color: var(--link-color);
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+.customers {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}

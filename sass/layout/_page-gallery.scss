@@ -1,0 +1,42 @@
+//  size gallery
+
+.gallery {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 94px;
+}
+
+// ul gallery
+
+.images-item {
+  list-style: none;
+  display: flex;
+
+  .images {
+    position: relative;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  .photo-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 27px 0;
+    background: var(--photo-thumb-background);
+
+    .photo-overlay {
+      margin: 0;
+      font-weight: 700;
+      line-height: 1.14;
+      text-transform: uppercase;
+      color: var(--nav-background-color);
+    }
+  }
+}

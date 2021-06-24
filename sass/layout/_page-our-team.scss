@@ -1,0 +1,68 @@
+// section our team
+
+.our-team-bloc {
+  background: var(--our-team-bloc-background-color);
+
+  .our-team {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-family: Roboto;
+    width: 700;
+    color: var(--link-color);
+    margin: 0px;
+    margin-bottom: 50px;
+  }
+}
+
+// ul our team
+
+.team-list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+
+  .team-card {
+    background: var(--nav-background-color);
+    box-shadow: var(--team-card-box-shadow);
+    border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    .team-imagies {
+      width: 270px;
+      height: 260px;
+    }
+  }
+}
+
+.worker-bloc {
+  padding-top: 30px;
+
+  .name-worker {
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0px;
+    margin-bottom: 10px;
+    color: var(--link-color);
+  }
+
+  .name-working {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0px;
+    color: var(--contact-menu-itam-color);
+    margin-bottom: 30px;
+  }
+}

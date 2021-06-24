@@ -1,0 +1,45 @@
+// background
+
+.background-head {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--background-head-color);
+  background-size: cover;
+  background-image: linear-gradient(
+      var(--background-image-linear-gradient),
+      var(--background-image-linear-gradient)
+    ),
+    var(--background-image);
+}
+
+// tittel  hero
+
+.effect {
+  margin: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--nav-background-color);
+  text-align: center;
+}
+
+// button hero
+
+.model-btn {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: inherit;
+  color: var(--nav-background-color);
+  background-color: var(--hover-focus-color);
+  border: none;
+  cursor: pointer;
+}
