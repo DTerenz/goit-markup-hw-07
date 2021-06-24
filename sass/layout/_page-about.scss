@@ -1,12 +1,12 @@
 // ul specifics list
 
-.specifics-lict-items {
+.specifics__list {
   margin: 0px;
   padding: 0px;
   list-style: none;
   display: flex;
 
-  .item-list {
+  .specifics__item {
     width: 270px;
 
     &:not(:last-child) {
@@ -17,7 +17,7 @@
 
 // div specific thumb
 
-.specific-thumb {
+.specific__thumb {
   height: 120px;
   display: flex;
   background: var(--our-team-bloc-background-color);
@@ -34,14 +34,14 @@
 
 // tittle
 
-.specific-item {
+.specific__tittle {
   margin: 0px;
   padding: 0px;
 }
 
 //description
 
-.specific-description {
+.specific__description {
   margin: 0px;
   padding: 0px;
   font-size: 14px;

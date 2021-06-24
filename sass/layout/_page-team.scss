@@ -1,0 +1,34 @@
+// section our team
+
+.team {
+  background: var(--our-team-bloc-background-color);
+}
+
+// ul our team
+
+.team__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+
+  .team__card {
+    background: var(--nav-background-color);
+    box-shadow: var(--team-card-box-shadow);
+    border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    .team-imagies {
+      width: 270px;
+      height: 260px;
+    }
+  }
+}
+
+.team__thumb {
+  padding-top: 30px;
+}

@@ -8,11 +8,11 @@
 
 // ul gallery
 
-.images-item {
+.gallery__list {
   list-style: none;
   display: flex;
 
-  .images {
+  .gallery__item {
     position: relative;
 
     &:not(:last-child) {
@@ -20,7 +20,7 @@
     }
   }
 
-  .photo-thumb {
+  .gallery__thumb {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@
     padding: 27px 0;
     background: var(--photo-thumb-background);
 
-    .photo-overlay {
+    .gallery__overlay {
       margin: 0;
       font-weight: 700;
       line-height: 1.14;

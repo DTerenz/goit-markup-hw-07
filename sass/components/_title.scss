@@ -1,4 +1,6 @@
-.what-we-do {
+// galery
+
+.gallery__tittle {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -12,7 +14,10 @@
   margin-top: 0px;
 }
 
-.our-team {
+
+// team
+
+.team__tittle {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -26,7 +31,30 @@
   margin-bottom: 50px;
 }
 
-.customers {
+
+.team__name {
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0px;
+  margin-bottom: 10px;
+  color: var(--link-color);
+}
+
+.team__work {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0px;
+  color: var(--contact-menu-itam-color);
+  margin-bottom: 30px;
+}
+
+// customers
+
+.customers__tittle {
   margin-top: 0;
   margin-bottom: 50px;
   color: var(--secondary-text-color);

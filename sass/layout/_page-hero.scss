@@ -1,6 +1,6 @@
 // background
 
-.background-head {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--background-head-color);
@@ -14,7 +14,7 @@
 
 // tittel  hero
 
-.effect {
+.hero__tittle {
   margin: 0px;
   font-family: Roboto;
   font-style: normal;
@@ -29,7 +29,7 @@
 
 // button hero
 
-.model-btn {
+.hero__btn {
   display: block;
   width: 200px;
   height: 50px;

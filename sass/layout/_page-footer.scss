@@ -1,14 +1,14 @@
 // footer
-.back {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--background-footer-color);
 
-  .back-container {
+  .footer__container {
     display: flex;
     align-items: center;
 
-    .add {
+    .footer__invite {
       font-family: Roboto;
       font-weight: 700;
       line-height: 16px;
@@ -23,15 +23,15 @@
 
 // address
 
-.address {
+.footer__address {
   margin-top: 20px;
 
-  .address-container {
+  .footer__coordinate-thumb {
     align-items: center;
     margin-right: 70px;
   }
 
-  .contact {
+  .footer__list {
     list-style: none;
     font-style: normal;
     font-weight: normal;
@@ -42,7 +42,7 @@
     margin: 0px;
     padding: 0px;
 
-    .superscription {
+    .footer__link {
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
@@ -52,7 +52,7 @@
       text-decoration: none;
     }
 
-    .contacts-end {
+    .footer__contacts {
       font-style: normal;
       font-weight: normal;
       letter-spacing: 0.03em;
@@ -64,13 +64,13 @@
 
 // mail subscription
 
-.email-send {
+.footer__send {
   margin-left: 93px;
 }
-.modal-send-input {
+.footer__form {
   display: flex;
 
-  .modal-form-send {
+  .footer__input{
     display: block;
     width: 358px;
     height: 50px;
@@ -84,7 +84,7 @@
     outline: none;
   }
 
-  .btn-send {
+  .footer__btn-send {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;

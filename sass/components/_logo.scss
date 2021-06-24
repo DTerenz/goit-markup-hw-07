@@ -1,6 +1,6 @@
 // logo header
 
-.logo-web {
+.logo__header {
   text-decoration: none;
   font-family: Raleway;
   font-style: normal;
@@ -12,7 +12,7 @@
   text-shadow: var(--text-shadow-logo);
   margin-right: 93px;
 
-  .logo-studio-header {
+  .studio__header {
     color: var(--logo-studio-header-color);
   }
 }
@@ -20,7 +20,7 @@
 // logo footer
 
 
-.end-logo {
+.footer__logo {
   text-decoration: none;
   font-family: Raleway;
   font-style: normal;
@@ -31,7 +31,7 @@
   color: var(--logo-web-color);
   margin-bottom: 20px;
 
-  .logo-studio {
+  .footer__studio {
     color: var(--nav-background-color);
     font-style: normal;
     font-weight: bold;
